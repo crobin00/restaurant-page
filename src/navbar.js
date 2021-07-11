@@ -6,7 +6,6 @@ export function navbar() {
 }
 
 export function addNavbarUnderline(navbarElement) {
-	navbarElement.classList.add("homeNavBar");
 	navbarElement.classList.add("navbarUnderline");
 }
 

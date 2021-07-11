@@ -17,6 +17,10 @@ home.addEventListener("click", (e) => {
 	removeNavbarUnderline(menu);
 	removeNavbarUnderline(contact);
 	content.appendChild(homepage());
+	content.querySelector("ul").style.background = "#f59ca9";
+	content.querySelectorAll("a").forEach((item) => {
+		item.style.color = "#ffdc5e";
+	});
 });
 
 menu.addEventListener("click", (e) => {
@@ -25,6 +29,10 @@ menu.addEventListener("click", (e) => {
 	removeNavbarUnderline(home);
 	removeNavbarUnderline(contact);
 	content.appendChild(menupage());
+	content.querySelector("ul").style.background = "#F8A120";
+	content.querySelectorAll("a").forEach((item) => {
+		item.style.color = "#FFDC5E";
+	});
 });
 
 contact.addEventListener("click", (e) => {
@@ -33,4 +41,8 @@ contact.addEventListener("click", (e) => {
 	removeNavbarUnderline(menu);
 	removeNavbarUnderline(home);
 	content.appendChild(contactpage());
+	content.querySelector("ul").style.background = "#1C3978";
+	content.querySelectorAll("a").forEach((item) => {
+		item.style.color = "#FFF4EF";
+	});
 });

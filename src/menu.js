@@ -5,9 +5,6 @@ export function menupage() {
 	const menuh1 = document.createElement("h1");
 	menuh1.innerText = "Menu";
 	menuh1.classList.add("menuh1");
-	/*const smoothiesh2 = document.createElement("h2");
-	smoothiesh2.innerText = "Smoothies";
-	smoothiesh2.classList.add("smoothiesh2");*/
 
 	const smoothies = foodCategory("Smoothies");
 
