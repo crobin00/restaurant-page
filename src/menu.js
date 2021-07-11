@@ -11,15 +11,15 @@ export function menupage() {
 	backgroundImage.classList.add("menuBackground");
 	menuDiv.classList.add("menuDiv");
 
-	const berryBanana = foodItem("Berry Banana Smoothie", 30);
+	const berryBanana = foodItem("Berry Banana Smoothie", 180);
 	berryBanana.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/berrybanana.jpeg')";
 
-	const mangoPineapple = foodItem("Mango Pineapple Smoothie", 50);
+	const mangoPineapple = foodItem("Mango Pineapple Smoothie", 250);
 	mangoPineapple.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/mangopineapple.jpeg')";
 
-	const honeydew = foodItem("Honeydew Smoothie", 50);
+	const honeydew = foodItem("Honeydew Smoothie", 160);
 	honeydew.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/honeydew.jpeg')";
 
@@ -29,11 +29,11 @@ export function menupage() {
 	pineappleKiwi.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/pineapplekiwipops.jpeg')";
 
-	const watermelonTarts = foodItem("Watermelon Lemon Tarts", 50);
+	const watermelonTarts = foodItem("Watermelon Lemon Tarts", 55);
 	watermelonTarts.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/watermelonlemontarts.jpeg')";
 
-	const fruitParfait = foodItem("Fruit Parfait", 50);
+	const fruitParfait = foodItem("Fruit Parfait", 170);
 	fruitParfait.querySelector(".foodItemImg").style.backgroundImage =
 		"url('./images/fooditems/fruitparfait.jpeg')";
 
